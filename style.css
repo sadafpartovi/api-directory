@@ -1,0 +1,108 @@
+body {
+    position: relative;
+
+}
+
+h1{
+    font-size: medium;
+    margin: 20px 200px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-weight: lighter;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 20px 200px;
+}
+
+.overlay{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(100, 100, 100, 0.4);
+}
+
+.hidden {
+    display: none;
+    }
+
+.modal {
+    width: 375px;
+    margin: 15% auto auto;
+    position: relative;
+    text-align: center;
+    background: #fff;
+    border: 1px solid #778;
+    border-radius: 5px;
+    padding: 30px 20px;
+
+}
+
+.modal-close{
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    cursor: pointer;
+
+}
+
+button {
+    border: none;
+    background-color: white;
+
+}
+
+.card {
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 0 5%;
+    
+    margin: 0;
+    line-height: 40%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card:hover {
+    background: #f8f8ff;
+}
+
+img {
+    border-radius: 50%;
+    height: 65%;
+    margin-left: -20px;
+    margin-right: 2%;
+    margin-top: 7%;
+    padding-right: 5px;
+}
+
+.text-container {
+    padding-top: 20px;
+}
+
+.email, .address {
+    color: gray;
+ 
+  font-weight: lighter;
+}
+
+.name {
+    font-size: medium;
+}
+
+hr {
+    width: 70%;
+
+}
+
+p{
+    color: gray;
+}
